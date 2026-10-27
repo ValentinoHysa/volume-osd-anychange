@@ -11,6 +11,9 @@ device itself goes straight to the PipeWire sink and shows nothing. Swiping the 
 of AirPods, or pressing the volume buttons on most Bluetooth headphones, sends the change
 over AVRCP, so the volume moves with no feedback on screen.
 
+I made this for AirPods Pro (2nd generation): swiping the touch control on the stem
+changes the volume, and I wanted to see on screen where it ended up.
+
 ## How it works
 
 The extension listens to the mixer GNOME Shell already uses, follows the default output
@@ -42,7 +45,9 @@ gnome-extensions enable volume-osd-anychange@valentinohysa.github.io
 
 ## Compatibility
 
-Tested on GNOME Shell 50.
+Tested on GNOME Shell 50 with AirPods Pro (2nd generation). Other headphones that change
+their volume over Bluetooth should work the same way, since the extension watches the
+output volume rather than the device.
 
 ## License
 
