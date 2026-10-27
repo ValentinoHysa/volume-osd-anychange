@@ -1,0 +1,7 @@
+{
+  "uuid": "volume-osd-anychange@valentinohysa.github.io",
+  "name": "Volume OSD on Any Change",
+  "description": "Shows GNOME's native on-screen volume popup whenever the output volume or mute state changes — including changes made from Bluetooth devices (e.g. AirPods) that bypass the keyboard media keys and normally produce no on-screen feedback.",
+  "shell-version": ["50"],
+  "url": "https://github.com/ValentinoHysa/volume-osd-anychange"
+}
